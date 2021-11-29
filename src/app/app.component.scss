@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    .side-menu{
+        flex: none;
+    }
+    .main-content{
+        background-color: #EAFBF6;
+        padding: 10px;
+        height: calc(100vh - 80px);
+        width: 100%;
+    }
+}

@@ -1,0 +1,82 @@
+.add-project-item,
+.project-item {
+    background-color: #d5fff2;
+    border-radius: 10px;
+    height: 170px;
+    width: 150px;
+    min-width: 150px;
+    margin: 10px;
+    flex: none;
+}
+
+.project-item {
+    padding: 10px;
+    .img {
+        width: 50px;
+        height: 50px;
+        svg {
+            width: 100%;
+        }
+    }
+
+    .description {
+        color: #54d9b3;
+        font-size: 20px;
+        margin: 10px 0;
+        span {
+            display: block;
+        }
+    }
+
+    .concern {
+        display: flex;
+        flex-direction: row;
+        .profile,
+        .count,
+        .add {
+            width: 30px;
+            height: 30px;
+            background-color: #a3a3a3;
+            border-radius: 50%;
+            flex: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2px;
+        }
+        .count{
+            background-color: white;
+            color: gray;
+        }
+        .profile{
+            border: 2px solid #54d9b3;
+        }
+
+        .add{
+            color: white;
+            font-weight: bold;
+            background-color: #c0c0c0;
+        }
+    }
+}
+
+.add-project-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #54d9b3;
+
+    button{
+        border: none;
+        outline: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #54d9b3;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

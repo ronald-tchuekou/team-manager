@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+@import './dimens';
+@import './theme';
+@import './grid';
+@import './flexbox';
+@import './padding_margin';
+@import './input';
+@import './global';
+
+.invisible-scroll {
+    &::-webkit-scrollbar-track {
+        visibility: hidden;
+    }
+
+    &::-webkit-scrollbar {
+        visibility: hidden;
+        width: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        visibility: hidden;
+    }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #FBFEFD;
+}
+
+.text-bold{
+  font-weight: 700;
+}

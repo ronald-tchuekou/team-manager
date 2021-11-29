@@ -1,0 +1,48 @@
+.team-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    transition: .3s;
+    &:hover{
+        cursor: default;
+        background-color: rgba(0, 0, 0, 0.055);
+    }
+    .profile{
+        height: 40px;
+        width: 40px;
+    }
+    .name{
+        width: 100%;
+        font-size: 17px;
+        margin: 0 10px;
+        color: rgb(92, 92, 92);
+    }
+    .options{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        button{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            font-size: 18px;
+            color:rgb(92, 92, 92);
+            margin: 5px;
+            padding: 5px;
+            transition: .3s;
+            border-radius: 50%;
+            height: 35px;
+            width: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover{
+                cursor: pointer;
+                color:rgb(54, 54, 54);
+                background-color: rgba(0, 0, 0, 0.068);
+            }
+        }
+    }
+}

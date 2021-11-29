@@ -1,0 +1,21 @@
+<div class="side-bar">
+    <a routerLink="/home" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === '' ? 'fi-sr-home' : 'fi-rr-home' }} "></i><span>Home</span>
+    </a>
+    <a routerLink="/teams" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === 'teams' ? 'fi-sr-vector' : 'fi-rr-vector' }} "></i><span>Team</span>
+    </a>
+    <a routerLink="/calls" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === 'calls' ? 'fi-sr-phone-call' : 'fi-rr-phone-call' }} "></i><span>Calls</span>
+    </a>
+    <a routerLink="/meetings" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === 'meetings' ? 'fi-sr-calendar' : 'fi-rr-calendar' }} "></i><span>Meetings</span>
+    </a>
+    <a routerLink="/analytics" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === 'analytics' ? 'fi-sr-chat-arrow-grow' : 'fi-rr-chat-arrow-grow' }} "></i
+        ><span>Analytics</span>
+    </a>
+    <a routerLink="/settings" class="side-bar-item" routerLinkActive="active">
+        <i class="fi {{ current_page === 'settings' ? 'fi-sr-settings' : 'fi-rr-settings' }} "></i><span>Settings</span>
+    </a>
+</div>
